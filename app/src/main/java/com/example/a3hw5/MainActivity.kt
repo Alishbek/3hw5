@@ -51,6 +51,8 @@ class MainActivity : AppCompatActivity() {
                     "1" -> tvNumber.text = "0"
                 }
 
+
+
             }
             if (tvNumber.text == "10") btnPlusMinus.text = minus
             if (tvNumber.text == "0") btnPlusMinus.text = plus
